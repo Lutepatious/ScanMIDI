@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{98155606-DB82-4274-96B5-6EE40FE9695D}</ProjectGuid>
-    <RootNamespace>XMItoMID</RootNamespace>
+    <ProjectGuid>{670422A8-9C6C-488B-AECB-1DC274E38A48}</ProjectGuid>
+    <RootNamespace>ScanMIDI</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -111,7 +111,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="scanxmi.c" />
+    <ClCompile Include="scanmidi.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
